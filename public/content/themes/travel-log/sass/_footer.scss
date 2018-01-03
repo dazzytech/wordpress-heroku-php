@@ -1,0 +1,321 @@
+
+
+// Mixins
+@mixin footer-widget-title() {
+  color: $footer-title-color;
+  font-weight: 600;
+  font-size: 17px;
+  background: none;
+  border-left: 0;
+  padding: 0 0 10px 0;
+  margin-bottom: 20px;
+}
+
+footer#footer {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-top: 10px solid;
+  @include pre-define-border( $button-bg);
+  color: $footer-text-color;
+  font-size: $footer-font-size;
+  position: relative;
+
+  p {
+    color: $footer-text-color;
+  }
+
+  // Links
+  a,
+  a:visited {
+    border: 0;
+    color: $footer-link-color;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+
+  .wrap-col {
+    margin: 10px;
+  }
+
+  .row .col-1-4 {
+    display: inline-block;
+    float: left;
+    width: 25%;
+  }
+
+
+
+
+  .widget {
+   &.widget_calendar {
+    caption {
+     color: $white;
+    }
+
+    th {
+     background: #2f2f2f;
+    }
+
+    table,
+    th,
+    td {
+     border: 1px solid;
+     @include pre-define-border(#444242);
+    }
+   }
+    border-top: 0;
+    .widget-title {
+      @include footer-widget-title();
+      .rsswidget {
+        @include footer-widget-title();
+      }
+    }
+
+    li {
+      @include widget-li-styles(#47505b);
+
+      .children,.sub-menu {
+
+        li{
+          border-bottom:none;
+        }
+      }
+    }
+    .follow-button {
+       margin: 20px 0 10px;
+    }
+    .three-columns{
+    li{
+        width: calc( 33.33333% - 5px);
+        display: inline-block;
+        position:relative;
+        border-bottom:none;
+        overflow: hidden;
+        margin-bottom: 0;
+        padding-bottom:0;
+         line-height: 0;
+        &:before{
+          content:none;
+        }
+        &:hover .fancybox{
+          position: absolute;
+          top: 43%;
+          left: 55%;
+          @include transition(all 0.5s ease);
+        }
+        &:hover span.insta-feed-img:before{
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+    }
+    span.insta-feed-img{
+      position: relative;
+      display: block;
+
+      &:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0);
+          display: block;
+          width: 100%;
+          height: 100%;
+          @include transition(all 0.5s ease);
+      }
+    }
+    .fancybox{
+        position: absolute;
+        top: -200%;
+        left: 55%;
+        margin-left: -20px;
+        color: $white;
+        @include transition(all 0.5s ease);
+
+        i{
+        font-size:16px;
+        }
+    }
+    .insta-profile{
+      @extend .fancybox;
+      margin-left: inherit;
+
+      i{
+        font-size:16px;
+      }
+    }
+}
+.two-columns{
+    li{
+        width: calc( 50% - 5px);
+        display: inline-block;
+        position:relative;
+        border-bottom:none;
+        overflow: hidden;
+        margin-bottom: 0;
+        padding-bottom:0;
+        line-height: 0;
+        &:before{
+          content:none;
+        }
+        &:hover .fancybox{
+          position: absolute;
+          top: 43%;
+          left: 55%;
+          @include transition(all 0.5s ease);
+        }
+        &:hover span.insta-feed-img:before{
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+    }
+    span.insta-feed-img{
+      position: relative;
+      display: block;
+
+      &:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0);
+          display: block;
+          width: 100%;
+          height: 100%;
+          @include transition(all 0.5s ease);
+      }
+    }
+    .fancybox{
+        position: absolute;
+        top: -200%;
+        left: 55%;
+        margin-left: -20px;
+        color: $white;
+        @include transition(all 0.5s ease);
+
+        i{
+        font-size:16px;
+        }
+    }
+    .insta-profile{
+      @extend .fancybox;
+      margin-left: inherit;
+
+      i{
+        font-size:16px;
+      }
+    }
+}
+  }
+
+
+  	.travel-site-bottom-footer {
+	    background: $footer-bg-color;
+	    text-align: left;
+	    padding-top: 40px;
+      padding-bottom:20px;
+	    z-index:2;
+
+		.widget_rss{
+				.rss-date,cite{
+					color:#b9b9b9;
+				}
+    ul {
+     padding: 0;
+    }
+		}
+
+
+
+	}
+
+.footer-nav-menu {
+
+  border-top:1px solid;
+  @include transparent-border(221, 221, 221, 0.12);
+ 
+  ul {
+
+    text-align: center;
+    padding: 20px 0;
+    margin:0;
+
+    li {
+
+      display: inline-block;
+
+      &:after {
+        content:'|';
+      }
+      &:last-child:after{
+        content:none;
+      }
+          a{
+            padding:0 10px;
+          }
+        ul{
+          display:none;
+        }
+    }
+
+  }
+}
+ 
+  .copy-right-footer {
+      border-top: 1px solid;
+       @include transparent-border(221, 221, 221, 0.12);
+      
+      .travel-copyright {
+     
+        padding: 15px 0 0;
+
+        p {
+            text-align: center;
+            margin: 0;
+            font-size: 12px;
+            font-weight: 500;
+        }
+      }
+
+  }
+  
+
+
+} // END: Footer
+//back to top button
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #f83531;
+    width: 50px;
+    height: 50px;
+    z-index:9;
+    display: none;
+    text-decoration: none;
+
+     @include border-radius(35px);
+   
+    @include transition(all 0.3s ease-in-out);
+
+    &:hover {background: $button-color;}
+
+    i {
+        color: $white;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 13px;
+        font-size: 25px;
+        text-align: center;
+        
+        @include transition(all 0.3s ease-in-out);
+
+          &:hover {color: $white;
+            top: 5px;
+          }
+      }
+}
+

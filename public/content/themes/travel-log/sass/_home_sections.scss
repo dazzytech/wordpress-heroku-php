@@ -1,0 +1,793 @@
+//slider
+.featured-slider {
+    overflow: hidden;
+    position: relative;
+    z-index: 97;
+    .travel-banner.slick-slider {
+        margin: 0;
+        & .slick-prev,
+        & .slick-next {
+            height: 40px;
+            top: 50%;
+            width: 40px;
+            @include xs {
+                height: 25px;
+                width: 25px;
+            }
+        }
+        & .slick-next {
+            right: 0px;
+        }
+        & .slick-prev {
+            left: 0px;
+        }
+        & .slick-next:before,
+        & .slick-prev:before {
+            @include opacity(1);
+            border: none;
+            background: $button-color;
+            color: $white;
+            display: block;
+            font-family: "FontAwesome";
+            line-height: 37px;
+            text-align: center;
+            @include xs {
+                line-height: 25px;
+            }
+        }
+        & .slick-slide {
+            display: block;
+            position: relative;
+        }
+        & img {
+            width: 100%;
+        }
+        & .slick-dots {
+            bottom: 20px;
+            margin-bottom: 5px;
+            position: absolute;
+            text-align: center;
+            margin: 0 auto;
+            & li {
+                & button:before {
+                    font-size: 14px;
+                    color: $button-color;
+                }
+                &.slick-active button:before {
+                    color: $button-color;
+                    @include opacity(1);
+                }
+            }
+        }
+    }
+    .featured-slider-contents {
+        position: absolute;
+        bottom: 30%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        color: $white;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        width: 50%;
+        padding: 0 15px;
+        @include mob {
+            bottom: 27%;
+            width: 85%;
+        }
+        .slider-buttons {
+            display: inline-block;
+            margin-top: 30px;
+            text-align: center;
+            @include mob {
+                margin-top: 15px;
+            }
+            & a {
+                color: $white;
+                @include xs {
+                    padding: 7px 16px !important;
+                    font-size: 12px !important;
+                }
+                &:visited,
+                &:focus {
+                    color: $white;
+                }
+            }
+            .slider-view {
+                color: $white;
+                padding: 12px 30px;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 300;
+                border: 1px solid;
+                @include pre-define-border($button-bg);
+            }
+            .slider-info {
+                @extend .slider-view;
+                background: transparent;
+                border: 1px solid;
+                @include pre-define-border($white);
+                &:hover {
+                    color: $white;
+                    background: $button-bg;
+                    @include pre-define-border($button-bg);
+                }
+            }
+        }
+        & h1 {
+            color: $white;
+            margin: 0 0 30px 0;
+            text-shadow: 3px 3px 3px $mark-bg-color;
+            @include sidr-view {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            @include mob {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            @include xs {
+                font-size: 14px;
+            }
+        }
+        & p {
+            text-shadow: 0 0 2px $mark-bg-color;
+            color: $white;
+            font-size: 16px;
+            margin-bottom: 40px;
+            @include sidr-view {
+                margin-bottom: 13px;
+            }
+        }
+    }
+    .travel-banner .slick-dots {
+        // left:-35px;
+        // @include mob{
+        // 	left:-53px;
+        // }
+    }
+    .slick-dots {
+        li {
+            button:before {
+                @include opacity(0.5);
+            }
+        }
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        @include transition(all 0.5s ease);
+    }
+    .slick-prev:hover::before,
+    .slick-next:hover::before {
+        background: $button-bg-hover !important;
+    }
+}
+
+.slick-slider {
+    overflow: hidden;
+}
+
+//body part below slider
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.title-tagline {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        width: 50%;
+        margin: 0 auto 10px;
+    }
+}
+
+.year-tag {
+    color: #0089d1;
+}
+
+#filters {
+    margin: 20px 0 30px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    & li {
+        display: inline-block;
+        *display: inline;
+        /*IE7*/
+        *zoom: 1;
+        /*IE7*/
+        & span {
+            display: block;
+            padding: 5px 15px;
+            text-decoration: none;
+            color: #555;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 15px;
+            @include mob {
+                font-size: 14px;
+                padding: 5px 10px;
+            }
+            @include xs {
+                padding: 5px 10px;
+                font-size: 12px;
+            }
+            &:hover {
+                color: $button-color-hover;
+            }
+            &.active {
+                background: transparent;
+                color: $button-color-hover;
+            }
+        }
+    }
+}
+
+.filtr-container div[data-bound] {
+    display: none;
+}
+
+//arrow for RECOMMENDED TRIPS and blog post
+.slick-prev,
+.slick-next {
+    top: 10px;
+}
+
+.slick-prev {
+    right: 35px;
+    left: initial;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+//tab-tour and for recomended list
+.post-item-wrapper {
+    overflow: hidden;
+    position: relative;
+    background: $white;
+    margin-bottom: 30px;
+    cursor: default;
+    padding-bottom: 0px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    .post-thumb {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 75%;
+        img {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            left: 0;
+            right: 0;
+            margin: auto;
+            @include transition(all 0.4s ease-in-out);
+        }
+        @media screen\0 {
+            img {
+                background-size: cover;
+                background-position: center center;
+                object-fit: inherit;
+            }
+        }
+    }
+    &:hover img {
+        // @include transform(1.2);
+        @include transition(all 0.4s ease-in-out);
+    }
+    &:hover span.effect {
+        max-width: 100%;
+        background: #000;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        @include transition(all 0.4s ease-in-out);
+    }
+    span.effect {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        max-width: 0;
+        background: #000;
+        opacity: 0.4;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+    }
+    &:hover .post-content h4 {
+        margin-bottom: 25px;
+        color: $link-color-hover;
+    }
+    .post-content {
+        padding: 20px 15px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        h4,
+        .read-more-link {
+            position: absolute;
+            color: $white;
+        }
+        h4 {
+            bottom: 30px;
+            margin-bottom: 15px;
+            margin-top: 0px;
+            width: 80%;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 16px;
+            @include transition(all 0.4s ease-in-out);
+        }
+        .read-more-link {
+            bottom: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #fff;
+            &:after {
+                content: '\f105';
+                font-family: 'FontAwesome';
+                padding-left: 8px;
+            }
+        }
+        h4 .read-more-link {
+            position: relative;
+            font-size: 16px;
+            line-height: 21px;
+            &:after {
+                content: '';
+            }
+        }
+        .read-more-link:hover {
+            color: #b0b0b0;
+        }
+        h4:hover,
+        .read-more-link:hover {
+            color: $link-color-hover;
+            @include transition(all 0.4s ease-in-out);
+        }
+    }
+}
+
+.recomended-lists {
+    padding-top: 30px;
+}
+
+//highlight-tag
+.highlight-tag {
+    background: $custom-header-dark;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .highlight-wrapper {
+        padding: 50px 0;
+        display: block;
+        position: relative;
+        z-index: 2;
+        & h2 {
+            font-size: 28px;
+            line-height: 30px;
+            color: $white;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+        & p {
+            color: $white;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .highlight-book {
+            color: $white;
+            text-transform: uppercase;
+            padding: 12px 25px;
+            @include border-radius(3px);
+            font-size: 16px;
+            margin-top: 30px;
+            position: relative;
+            display: inline-block;
+            width: auto;
+        }
+    }
+    .theme-btn {
+        background: $button-bg;
+    }
+    .theme-btn:hover {
+        background: $button-bg-hover;
+        color: $white;
+    }
+}
+
+//For only RECOMMENDED TRIPS
+.recomended-lists {
+    .post-item-wrapper {
+        margin: 0 15px 30px 15px;
+        .post-thumb {
+            padding: 70% 0 70% 70%;
+        }
+    }
+}
+
+//testimonial
+.travel-testimonial {
+    background: $custom-header-dark;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .testimonial-wrapper {
+        z-index: 2;
+        position: relative;
+        .col-sm-10 {
+            float: right;
+        }
+    }
+    .section-title {
+        color: $white;
+    }
+    .testimonial.slider {
+        padding: 30px 0;
+        margin: 0;
+        .testimonial-content.slick-slide {
+            display: flex;
+            @include mob {
+                display: inherit;
+            }
+        }
+    }
+    .client-img.wrap {
+        float: left;
+        width: 22%;
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        // margin-top: 25px;
+        @include mob {
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+            float: none;
+            margin-bottom: 25px;
+        }
+        & img {
+            width: 50%;
+            margin: 0 auto;
+            @include border-radius(50%);
+            box-shadow: 0 5px 5px #000;
+        }
+    }
+    .client-content {
+        color: $white;
+        float: left;
+        width: 70%;
+        padding: 20px;
+        display: inline-block;
+        min-height: 177px;
+        background: rgba(0, 0, 0, 0.41);
+        border: 1px solid rgba(221, 221, 221, 0.45);
+        @include mob {
+            width: 100%;
+        }
+        & p {
+            color: $white;
+            margin: 7px 0;
+            font-size: 14px;
+            padding: 0 20px;
+        }
+        & .inner-content {
+            display: block;
+            position: relative;
+            clear: both;
+        }
+        blockquote {
+            &:before {
+                font-size: 80px;
+                position: absolute;
+                left: 45%;
+                top: -45px;
+                color: $white;
+            }
+            &:after {
+                content: '';
+            }
+        }
+        .client-bio {
+            clear: both;
+            margin-top: 24px;
+            & p {
+                margin: 0px;
+            }
+            & .name-id {
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 14px;
+                &:before {
+                    content: "";
+                    display: block;
+                    background: $button-bg;
+                    height: 3px;
+                    width: 2%;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-bottom: 5px;
+                }
+            }
+            .designation-id {
+                font-size: 13px;
+            }
+        }
+        blockquote {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-style: italic;
+            margin: 0.25em 0;
+            padding: 0.35em 40px;
+            line-height: 1.45;
+            position: relative;
+            color: #383838;
+            & p {
+                display: inline;
+            }
+        }
+        blockquote cite {
+            color: #999999;
+            font-size: 14px;
+            display: block;
+            margin-top: 5px;
+            &:before {
+                content: "\2014 \2009";
+            }
+        }
+        .testimonial-quote-left {
+            margin: 0 0 20px;
+        }
+        .testimonial-quote-right {
+            margin: 20px 0 0;
+        }
+    }
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+    .slick-dots {
+        bottom: 0px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        position: absolute;
+        text-align: center;
+        padding-left: 14%;
+        & li button:before {
+            font-size: 14px;
+            color: $white;
+        }
+        & li.slick-active button:before {
+            color: $white;
+            @include opacity(1);
+        }
+    }
+}
+
+//blog post
+.travel-blog {
+    .featured-blog {
+        .blog-slide.slider {
+            padding: 30px 0 0;
+            margin-bottom: 0px;
+        }
+        .blog-latest-post {
+            padding: 0 10px;
+            .post-item-wrapper {
+                .post-thumb {
+                    padding-bottom: 50%;
+                    img {
+                        bottom: 0;
+                    }
+                }
+                .post-content {
+                    padding: 15px 15px 47px;
+                    position: relative;
+                    background-color: rgba( 255, 255, 255, 0.8);
+                    h4,
+                    a {
+                        position: relative;
+                        color: $text-color;
+                        bottom: 0;
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    h4:hover a {
+                        color: $link-color-hover
+                    }
+                    .posted-on {
+                        font-size: 12px;
+                    }
+                    .btn-floating {
+                        width: 30px;
+                        margin-bottom: 0;
+                    }
+                    .social-reveal {
+                        right: -4px;
+                        left: inherit;
+                        text-align: right;
+                        top: 0px;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                    .social-reveal-active {
+                        -webkit-transform: translateX(-48px);
+                        -ms-transform: translateX(-48px);
+                        transform: translateX(-48px);
+                    }
+                    .share-toggle {
+                        cursor: pointer;
+                        i {
+                            color: #555;
+                        }
+                    }
+                    .post-excerpt {
+                        p {
+                            margin-top: 10px;
+                            line-height: 24px;
+                            max-height: 75px;
+                            min-height: 75px;
+                            overflow: hidden;
+                        }
+                    }
+                    .post-metas {
+                        position: absolute;
+                        bottom: 0px;
+                        width: 100%;
+                        left: 0;
+                        padding: 10px 16px;
+                        border-top: 1px solid #eee;
+                    }
+                }
+                .meta-left,
+                .meta-right {
+                    display: inline-block;
+                }
+                .meta-right {
+                    float: right;
+                    .share-handle {
+                        &:after {
+                            content: none;
+                        }
+                    }
+                    .comments-number {
+                        &:after {
+                            content: '';
+                        }
+                        &:before {
+                            content: '\f086';
+                            font-family: fontawesome;
+                            padding-right: 10px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//customers
+.theme-overlay,
+.slider-image-wrapper:after {
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.client-content {
+    text-align: center;
+}
+
+//ful-width-instagram-widget
+.travel-log-front-page-full-width-widget {
+    position: relative;
+    .widget {
+        padding: 0;
+        .widget-title {
+            display: none;
+        }
+        .follow-button {
+            display: none;
+        }
+        ul {
+            li {
+                width: 16.6667%;
+                float: left;
+                overflow: hidden;
+                position: relative;
+                border-bottom: none;
+                margin: 0;
+                padding: 0;
+                line-height: 0;
+                &:before {
+                    content: none;
+                }
+                &:hover .fancybox {
+                    position: absolute;
+                    top: 43%;
+                    left: 55%;
+                    @include transition(all 0.5s ease);
+                }
+                &:hover span.insta-feed-img:before {
+                    background-color: rgba(0, 0, 0, 0.4);
+                }
+                @include mob {
+                    width: 33.33%;
+                }
+            }
+            span.insta-feed-img {
+                position: relative;
+                display: block;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(0, 0, 0, 0);
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    @include transition(all 0.5s ease);
+                }
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .fancybox {
+                position: absolute;
+                top: -200%;
+                left: 55%;
+                margin-left: -30px;
+                color: $white;
+                @include transition(all 0.5s ease);
+                i {
+                    font-size: 25px;
+                }
+            }
+            .insta-profile {
+                @extend .fancybox;
+                margin-left: inherit;
+                i {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+#travel-log-static-content {
+    padding: 60px 0;
+}
+
+.front-page-home-sections #content {
+    padding: 0;
+}

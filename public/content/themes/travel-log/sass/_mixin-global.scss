@@ -1,0 +1,88 @@
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin box-sizing($content-box, $textfield){
+    box-sizing: $content-box;
+  -webkit-box-sizing: $content-box;
+  -moz-box-sizing: $content-box;
+  -webkit-appearance: $textfield;
+}
+@mixin opacity($opacity){
+opacity: $opacity;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity)";
+filter: alpha(opacity=$opacity);
+-moz-opacity: $opacity;
+-khtml-opacity: $opacity;
+}
+
+@mixin pre-define-border($color-border){
+border-color:$color-border;
+
+}
+@mixin transform($scale){
+    -ms-transform: scale($scale);
+    -webkit-transform: scale($scale);
+    transform: scale($scale);
+}
+@mixin transform-with-rotate($deg, $scale){
+    -webkit-transform: rotate($deg) scale($scale);
+    -moz-transform: rotate($deg) scale($scale);
+    -o-transform: rotate($deg) scale($scale);
+    -ms-transform: rotate($deg) scale($scale);
+    transform: rotate($deg) scale($scale);
+}
+@mixin transition($transition...){
+     -webkit-transition:  $transition;
+     -moz-transition: $transition;
+     -o-transition: $transition;
+     transition: $transition;
+}
+@mixin transparent-border($red, $green, $blue, $alpha){
+border-color:rgba($red, $green, $blue, $alpha);
+
+}
+@mixin widget-li-styles( $border-color ) {
+    border-bottom: 1px dotted $border-color;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+//media query for theme contents
+
+@mixin large-search{
+   @media(max-width: 1000px){
+      @content;
+    }
+}
+
+@mixin tab{
+  @media (max-width: 1024px){
+    @content;
+    }
+}
+@mixin sidr-view{
+  @media (max-width:992px){
+    @content;
+  }
+}
+@mixin mob{
+  @media (max-width: 767px){
+    @content;
+    }
+}
+@mixin xs{
+  @media (max-width: 500px){
+    @content;
+    }
+}
+
+
+
+
+
+
+
+

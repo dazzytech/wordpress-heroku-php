@@ -1,0 +1,156 @@
+
+.comments-area{
+	
+	ol.comment-list {
+	    list-style: none;
+
+	  ol.children  {
+		list-style: none;
+		padding: 0 10px 0 15px;
+    	border: none;
+    	margin:0;
+	    }
+	}
+	ol{
+		margin: 0;
+		padding: 0 15px 10px;
+		position:relative;
+		list-style:decimal;
+		background-color: $white;
+		border: 1px solid;
+		@include pre-define-border(#d2d2d2);
+		
+		li {
+			padding:5px 10px;
+			border-bottom: 1px solid;
+			@include pre-define-border(#d2d2d2);
+			.comment-author img {
+			   position:relative;
+			   margin:7px 15px 15px 0;
+			   float: left;
+			}
+			ul{
+			    
+ 			   padding: 0;
+			}
+			.comment-metadata{
+				font-size: 13px;
+				margin-bottom:10px;
+				&:before{
+					display: inline-block;
+				    font-family: FontAwesome;
+				    height: 15px;
+				    content: "\f017";
+				}
+				time{
+					font-size: 13px;
+					font-style: italic;
+					font-family:"Roboto", sans-serif;
+
+			    }
+			}
+			ol {
+			    padding: 0;
+				border:none;
+				margin:0 0 1.5em 3em;
+			    li{
+					padding:5px 10px;
+					border-bottom: 1px solid;
+					@include pre-define-border(#d2d2d2);
+				}
+				ol{
+					margin:0 0 0 1.5em;
+				}
+				
+			}
+			
+			&:last-of-type{
+				border-bottom: none;
+			}
+		}
+		.comment-content {
+			clear: both;
+			display: block;
+
+			p {
+			    padding-left: 35px;
+			}
+			blockquote p{
+				padding-left:0;
+			}
+			a{
+				color:$link-distinct-color;
+			}
+		}
+		.edit-link {
+
+			a{
+				color:$link-distinct-color;
+				font-size:13px;
+				&:hover{
+					color:$link-color-hover;
+				}
+
+				&:before{
+					content: '\f044';
+					font-family: fontawesome;
+					padding: 0 5px;
+				}
+				
+			}
+		}
+
+		.reply {
+				position: absolute;
+				z-index: 9;
+				top:20px;
+				right: 30px;
+				@include xs{
+					position:inherit;
+					top: inherit;
+					right: inherit;
+				}
+
+		    a{ 
+				color:$link-distinct-color;
+				z-index:9;
+				&:hover{
+					color:$link-color-hover;
+				}
+		    }
+
+		    &:hover{
+		    	border-color:$link-color-hover;
+		    }
+		}
+	}
+
+	.comment-reply-title{
+		color:$text-color;
+		font-weight:600;
+	}
+	.comment-notes{
+		color:#333;
+	}
+	.comment-form{
+
+		input{
+			display:block;
+			padding: 10px 15px;
+		}
+		.form-submit {
+		    padding-top: 10px;
+		    margin-bottom:40px;
+		}
+	}
+	.required{
+		color:$link-distinct-color;
+	}
+	.comment-form-comment,.comment-form-author,.comment-form-email,.comment-form-url{
+		color:$text-color;
+		font-weight:500;
+	}
+
+}
+
+

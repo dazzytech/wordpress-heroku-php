@@ -1,0 +1,183 @@
+WP Travel Search Section @media only screen and ( min-width: 590px) {
+    #section-itinerary-search div.wp-travel-search p {
+        display: inline-block;
+        padding: 20px;
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #section-itinerary-search div.wp-travel-search p {
+        display: inline-block;
+        padding: 20px;
+        width: 23%;
+    }
+}
+
+#section-itinerary-search {
+    background: #4a4545;
+}
+
+#section-itinerary-search .section-title,
+#section-itinerary-search .title-tagline p {
+    color: #fff;
+}
+
+#section-itinerary-search div.wp-travel-search p label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+
+#section-itinerary-search div.wp-travel-search p input,
+#section-itinerary-search div.wp-travel-search p select {
+    position: relative;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 10px;
+    min-width: 75px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#section-itinerary-search div.wp-travel-search {
+    text-align: center;
+    padding: 20px;
+}
+
+#header-search #section-itinerary-search {
+    background: transparent;
+    margin: 0 auto;
+    /*position: absolute;
+    top: 40%;
+    left: 0;
+    margin-top: -53px;
+    width: 58%;
+    margin-left: 8%;*/
+}
+
+#header-search #section-itinerary-search div.wp-travel-search p label {
+    color: #787878;
+}
+
+#header-search #search-form .close {
+    position: fixed;
+    top: 5%;
+    right: 6%;
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity)";
+    filter: alpha(opacity=0.7);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    font-size: 20px;
+    color: #555;
+}
+
+@media( max-width: 768px) {
+    #header-search #section-itinerary-search {
+        background: transparent;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -163px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.slider-book-now {
+    color: #fff;
+    background: #f83531;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid;
+    border-color: #f83531;
+}
+
+.slider-book-now:hover {
+    background: transparent;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+
+/*
+    Itinirary template css.
+*/
+
+.post-item-wrapper.trip-details {
+    overflow: visible;
+}
+
+.post-item-wrapper.trip-details .post-content .trip-metas {
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 30px);
+    transition: all 0.4s ease-in-out;
+    font-size: 12px;
+}
+
+.wp-travel-average-review {
+    font-size: 13px;
+}
+
+.post-item-wrapper.trip-details:hover .trip-metas {
+    bottom: 30px;
+}
+
+.title-price-wrapper {
+    min-height: 66px;
+}
+
+.post-item-wrapper.trip-details .post-content h4 {
+    position: relative;
+    bottom: inherit;
+    width: 68%;
+    float: left;
+    margin-bottom: 0;
+}
+
+.post-item-wrapper.trip-details .post-content .trip-price {
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.post-item-wrapper.trip-details .post-content .trip-price del {
+    margin: 0;
+}
+
+.post-item-wrapper.trip-details .post-content .trip-price .sale-price,
+.post-item-wrapper.trip-details .post-content .trip-price .current-price {
+    display: block;
+    color: #fff;
+}
+
+.post-item-wrapper.trip-details .rating-count {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.post-item-wrapper.trip-details .post-content .wp-travel-trip-time {
+    display: block;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.post-item-wrapper.trip-details .post-content span.trip-category {
+    float: right;
+}
+
+.post-item-wrapper.trip-details .trip-metas .wp-travel-trip-time i,
+.post-item-wrapper.trip-details .wp-travel-average-review:before,
+.post-item-wrapper.trip-details .wp-travel-average-review span,
+.post-item-wrapper.trip-details .rating-count,
+.post-item-wrapper.trip-details .trip-category {
+    color: #fff;
+}

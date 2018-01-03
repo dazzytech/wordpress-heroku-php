@@ -1,0 +1,16 @@
+.booking-form{
+	input, select,textarea {
+	    width: 100%;
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    display: inline-block;
+	    border: 1px solid;
+	    @include pre-define-border(#ccc);
+	    @include border-radius(4px);
+	    box-sizing: border-box;
+	}
+	input[type=submit]{
+		width:auto;
+
+	}
+}

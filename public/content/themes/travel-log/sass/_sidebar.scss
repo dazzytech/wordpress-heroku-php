@@ -1,0 +1,207 @@
+//default widgets
+$sidebar-li-border-color: #cecece;
+
+
+.layout-right-sidebar, .layout-left-sidebar{
+			.widget-area{
+				display:block;
+				padding:0px 15px;
+			}
+			.content-area{
+				padding:0px 15px;
+			}
+
+}
+
+
+
+.widget-area > :last-child,
+.widget > :last-child {
+	margin-bottom: 0;
+}
+
+.widget {
+		margin-bottom:0;
+		padding: 0 0 40px;
+		font-size: 14px;
+
+	.widget-title {
+			background: #e0e0e0;
+			margin: 0 0 10px;
+			border-left: 3px solid $button-bg;
+			padding: 10px;
+			font-size: 16px;
+			color:$text-color;
+			text-transform: uppercase;
+
+		&:empty {
+			margin-bottom: 0;
+		}
+		& a {
+			color: #787878;
+		}
+	}
+
+	.wp-caption-text {
+		text-align: center;
+	}
+
+	ul {
+		padding:0px;
+		margin:0;
+		list-style:none;
+
+		// & ul {padding-left:15px;}
+
+		&.children,
+		&.sub-menu {
+				margin-bottom: 0;
+				margin-left: 15px;
+				padding-top: 10px;
+		}
+
+		li {
+			@include widget-li-styles($sidebar-li-border-color);
+		}
+		li:before {
+			content:'\f105';
+			font-family: FontAwesome;
+			color: $button-bg-hover;
+			padding-right: 10px;
+		}
+
+		.children li,
+  .sub-menu li {
+    border-bottom: 0;
+    margin-bottom: 7px;
+    padding-bottom: 0;
+  }
+	}
+}
+
+/* Calendar widget */
+.widget.widget_calendar {
+
+	table {
+			margin: 0;
+
+ 		td, th {
+			padding: 0;
+			text-align: center;
+			line-height:2.5;
+		}
+
+		 th {
+		    background: #e8e8e8;
+		}
+	}
+
+	table, th, td {
+	    border: 1px solid #d1d1d1;
+	}
+	caption {
+		margin-bottom: 10px;
+	}
+	tbody a {
+		background-color: $button-bg;
+		color: $white;
+		display: block;
+		font-weight: 700;
+
+		&:hover, &:focus{
+			background-color: $button-bg-hover;
+			color: $white;
+		}
+	}
+
+}
+
+/* Recent Posts widget */
+.widget_recent_entries {
+
+	.post-date {
+		color: #686868;
+		display: block;
+		font-family: $text-fonts;
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+
+	li:last-child .post-date {
+		margin-bottom: 0;
+	}
+}
+
+/* RSS widget */
+.widget_rss {
+
+	.rss-date,cite {
+		color: #686868;
+		display: block;
+		font-family: $text-fonts;
+		font-size: 13px;
+		font-style: italic;
+		margin-bottom: 10px;
+	}
+	a.rsswidget {
+	    font-size: 14px;
+	   font-weight: 600;
+
+	   .rss-widget-icon{display:none;}
+	}
+	.widget-title{
+		&:before{content:'\f09e';font-family:FontAwesome;color:#FF7010;}
+	}
+	.rssSummary {
+	    font-size: 14px;
+	     &:last-child {
+			margin-bottom: 25px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	 ul{
+
+
+	 	li {
+			margin-bottom:20px;
+
+			&:before {content:'';padding-right: 0;}
+		}
+	 }
+
+
+}
+
+/* Tag Cloud widget */
+.tagcloud a {
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+	display: inline-block;
+	font-family: $text-fonts;
+	line-height: 1;
+	margin: 0 2px 7px;
+	padding: 5px;
+
+	&:hover, &:focus{
+		border-color:$button-bg-hover;
+		color:$button-color-hover;
+		outline: 0;
+	}
+}
+//search widget
+.widget .search-field {
+	padding:10px 15px;
+}
+//text widget
+.textwidget {
+
+	strong {
+	    padding: 5px 0;
+	    display: inline-block;
+	}
+
+}
+//sidebar end
