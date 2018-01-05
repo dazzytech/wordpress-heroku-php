@@ -1,0 +1,7 @@
+.left-block.stat-toolbar-wrap{
+    width: 100%;
+}
+
+.left-block.stat-toolbar-wrap .stat-toolbar-form .field-group {
+    width: calc( 20% - 24px );
+}
