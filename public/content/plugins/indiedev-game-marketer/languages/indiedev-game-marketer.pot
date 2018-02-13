@@ -1,0 +1,1281 @@
+# Copyright (C) 2016 IndieDev Game Marketer
+# This file is distributed under the same license as the IndieDev Game Marketer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: IndieDev Game Marketer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/indiedev-game-"
+"marketer\n"
+"POT-Creation-Date: 2016-12-13 22:44:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (IndieDev Game Marketer 1.0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-indiedev-game-marketer-admin.php:64
+#: admin/class-indiedev-game-marketer-admin.php:65
+#: admin/class-indiedev-game-marketer-admin.php:66
+msgid "IndieDev Game Marketer"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:65
+msgid "Add Game Promo"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:66
+msgid "Add Press Release"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:102
+msgid "Basic Settings"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:109
+msgid "Use Default CSS"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:117
+msgid "Your Company"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:124
+msgid "Company Name"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:132
+msgid "Company Description"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:140
+msgid "Company Location"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:148
+msgid "Primary Business Activity"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:156
+msgid "Secondary Business Activity"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:164
+msgid "Main Press Email"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:172
+msgid "Company Website"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:180
+msgid "Company Facebook"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:188
+msgid "Company Twitter"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:196
+msgid "Company YouTube Channel"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:204
+msgid "Company PR Phone"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:212
+msgid "Twitter Settings"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:219
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:227
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:235
+msgid "OAuth Token"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:243
+msgid "OAuth Secret"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:250
+#: admin/class-indiedev-game-marketer-admin.php:256
+msgid "Which game is this for?"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:288
+msgid "Include CSS"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:289
+msgid "Disable CSS"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:291
+msgid ""
+"Do you want to use the default CSS for the presskits?  If you disable this "
+"you should probably include your own CSS in your theme's file.  See the "
+"documentation for full CSS documentation."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:302
+msgid ""
+"Individuals, feel free to use your own name in place of the company name."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:303
+#: admin/class-indiedev-game-marketer-admin.php:315
+#: admin/class-indiedev-game-marketer-admin.php:340
+#: admin/class-indiedev-game-marketer-admin.php:367
+#: admin/class-indiedev-game-marketer-admin.php:378
+#: admin/class-indiedev-game-marketer-admin.php:389
+#: admin/class-indiedev-game-marketer-admin.php:400
+#: admin/class-indiedev-game-marketer-admin.php:411
+#: admin/class-indiedev-game-marketer-admin.php:422
+#: admin/class-indiedev-game-marketer-admin.php:448
+msgid "Display this content in your Pages and Post by pasting this shortcode:"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:314
+msgid ""
+"Explain the company or individual in a paragraph.  It's a good idea to start "
+"with where and when the company was formed."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:326
+msgid ""
+"This is used in press releases and should not be the full address, but "
+"instead just your state or province and country.  For example: Seattle, WA, "
+"USA"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:336
+#: admin/class-indiedev-game-marketer-admin.php:352
+msgid "Development"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:337
+#: admin/class-indiedev-game-marketer-admin.php:353
+msgid "Publishing"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:338
+#: admin/class-indiedev-game-marketer-admin.php:354
+msgid "Marketing"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:429
+msgid "The Settings tab is used to define basic options."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:436
+msgid ""
+"The Twitter Settings are used to authenticate your Twitter account so that "
+"you can autopost to Twitter using the Social tab.  After you enter new "
+"values for these settings, click the Save Changes button and then a new "
+"button will appear labeled Test Twitter Authentication.  If the test is "
+"successful, you can begin using the Social tab to autopost to Twitter."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:440
+msgid "Test Twitter Authentication"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:446
+msgid ""
+"These settings define your company.  After saving these details, some of "
+"these details will be used as defaults for other values in the plugin.  "
+"Because of that, it is recommended that you fill out these settings first."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:457
+msgid ""
+"To proceed, you need to first create and publish a Twitter App.  Full "
+"instructions on how to do that are located here"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:490
+msgid ""
+"To create a press kit for a game, you should first fill out the Settings "
+"tab, then create a game in the games tab, and finally, you should add your "
+"best screenshots, videos, press coverage, and awards by Adding New Promos."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:491
+msgid "Add New Promo"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:491
+msgid "View All Promos"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:491
+msgid ""
+"Note that you will lose any unsaved changes on the Settings tab if you click "
+"either of these buttons."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:492
+msgid ""
+"Once you have created some or all of the content for your game's press kit, "
+"you can use the buttons below to create a page that will act as the press-"
+"kit."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:499
+#: admin/class-indiedev-game-marketer-admin.php:502
+#: admin/class-indiedev-game-marketer-admin.php:1853
+msgid "Create Page"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:504
+#: admin/class-indiedev-game-marketer-admin.php:1371
+msgid "Edit Page"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:516
+msgid "Twitter Autoposter"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Add Images"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Tweet"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Post this immediately"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Post this once, at the following time"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Make a new tweet using this template on the following schedule"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Date"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Daily"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Monday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Tuesday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Wednesday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Thursday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Friday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Saturday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Every Sunday"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Time"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "Auto Attach Images"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:519
+msgid "None"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:530
+msgid "Game Marketing Resources"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:532
+msgid ""
+"The following links and resources were not created by me and are not "
+"sponsored, nor am I affiliated with these sites in any way.  Rather these "
+"are all resources that I feel are great for indie game marketing.  Please "
+"email me if you have any suggestions for content that belongs in this list!"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:534
+msgid "Other Marketing Tools"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:538
+msgid ""
+"by Rami Ismail, this is the legendary press kit creation tool that inspired "
+"me to create this plugin."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:539
+msgid "by IndieGameGirl, provides a press release template for indie gamedevs."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:540
+msgid ""
+"A tool to keep track of press lists and build distributions, also developed "
+"by Rami Ismail."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:543
+msgid "Game Marketing Guides"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:546
+msgid "A good guide to marketing your game."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:547
+#: admin/class-indiedev-game-marketer-admin.php:555
+msgid ""
+"PixelProspector.com is a site full of gamedev resources.  This is just one "
+"of many valuable pages, so check it out!"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:552
+msgid "Sites with Marketing Links &amp; Resources"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:556
+msgid ""
+" compilation of the tools Vlambeer uses to develop, market, and release "
+"their games."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:561
+msgid "YouTube Marketing Playlist"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:585
+#: admin/class-indiedev-game-marketer-admin.php:586
+msgid "Add New Game"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:589
+#: admin/class-indiedev-game-marketer-admin.php:919
+msgid "Game's Name"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:593
+#: admin/class-indiedev-game-marketer-admin.php:923
+msgid ""
+"Enter the name of your game, and do not add version numbers or qualifiers "
+"like BETA to the game's title."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:597
+#: admin/class-indiedev-game-marketer-admin.php:927
+#: admin/class-indiedev-game-marketer-admin.php:1393
+#: public/class-indiedev-game-marketer-public.php:555
+#: public/class-indiedev-game-marketer-public.php:565
+msgid "Logo"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:601
+#: admin/class-indiedev-game-marketer-admin.php:610
+#: admin/class-indiedev-game-marketer-admin.php:931
+#: admin/class-indiedev-game-marketer-admin.php:940
+msgid "Upload"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:602
+#: admin/class-indiedev-game-marketer-admin.php:932
+msgid "The game's official logo."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:606
+#: admin/class-indiedev-game-marketer-admin.php:936
+msgid "Main Image/Icon"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:611
+#: admin/class-indiedev-game-marketer-admin.php:941
+msgid ""
+"The main digital artwork for the game.  This is usually the cover, and is "
+"used in this program as the main icon that represents the game."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:615
+#: admin/class-indiedev-game-marketer-admin.php:945
+#: admin/class-indiedev-game-marketer-admin.php:1392
+msgid "Quick Description"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:619
+#: admin/class-indiedev-game-marketer-admin.php:949
+msgid ""
+"The elevator pitch you use to quickly describe your game in order to capture "
+"someone's interest in your game.  Shouldn't be more than a sentence or two."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:623
+#: admin/class-indiedev-game-marketer-admin.php:953
+#: admin/class-indiedev-game-marketer-admin.php:1392
+msgid "Full Description"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:627
+#: admin/class-indiedev-game-marketer-admin.php:957
+msgid ""
+"All the relevent details and sales copy that best explains and sells the "
+"concept and execution of your game.  Shortcodes can be used in this field to "
+"enhance the content to your liking."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:631
+#: admin/class-indiedev-game-marketer-admin.php:961
+#: admin/class-indiedev-game-marketer-admin.php:1393
+msgid "Genres"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:635
+#: admin/class-indiedev-game-marketer-admin.php:965
+msgid "A list of genres the game belongs to, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:639
+#: admin/class-indiedev-game-marketer-admin.php:969
+msgid "Multiplayer Modes"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:642
+msgid "Single-player"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:643
+#: admin/class-indiedev-game-marketer-admin.php:973
+msgid "A list of multiplayer modes the game has, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:647
+#: admin/class-indiedev-game-marketer-admin.php:977
+#: admin/class-indiedev-game-marketer-admin.php:1392
+msgid "Home URL"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:651
+#: admin/class-indiedev-game-marketer-admin.php:981
+msgid "The URL to the game's main website."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:655
+#: admin/class-indiedev-game-marketer-admin.php:985
+msgid "Greenlight URL"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:659
+#: admin/class-indiedev-game-marketer-admin.php:989
+msgid ""
+"The full URL to the game's Steam Greenlight page, if it has one.  Here is a "
+"valid example: "
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:664
+#: admin/class-indiedev-game-marketer-admin.php:994
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:607
+msgid "Developers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:668
+#: admin/class-indiedev-game-marketer-admin.php:998
+msgid "A list of the game's developers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:672
+#: admin/class-indiedev-game-marketer-admin.php:1002
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:610
+msgid "Publishers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:676
+#: admin/class-indiedev-game-marketer-admin.php:1006
+msgid "A list of the game's publishers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:680
+#: admin/class-indiedev-game-marketer-admin.php:1010
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:613
+msgid "Distributors"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:684
+#: admin/class-indiedev-game-marketer-admin.php:1014
+msgid "A list of the game's notable distributors, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:688
+#: admin/class-indiedev-game-marketer-admin.php:1018
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:616
+msgid "Producers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:692
+#: admin/class-indiedev-game-marketer-admin.php:1022
+msgid "A list of the game's notable producers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:696
+#: admin/class-indiedev-game-marketer-admin.php:1026
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:619
+msgid "Designers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:700
+#: admin/class-indiedev-game-marketer-admin.php:1030
+msgid "A list of the game's notable designers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:704
+#: admin/class-indiedev-game-marketer-admin.php:1034
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:622
+msgid "Programmers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:708
+#: admin/class-indiedev-game-marketer-admin.php:1038
+msgid "A list of the game's notable programmers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:712
+#: admin/class-indiedev-game-marketer-admin.php:1042
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:625
+msgid "Artists"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:716
+#: admin/class-indiedev-game-marketer-admin.php:1046
+msgid "A list of the game's notable artists, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:720
+#: admin/class-indiedev-game-marketer-admin.php:1050
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:628
+msgid "Writers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:724
+#: admin/class-indiedev-game-marketer-admin.php:1054
+msgid "A list of the game's notable writers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:728
+#: admin/class-indiedev-game-marketer-admin.php:1058
+#: admin/class-indiedev-game-marketer-admin.php:1394
+#: public/class-indiedev-game-marketer-public.php:631
+msgid "Composers"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:732
+#: admin/class-indiedev-game-marketer-admin.php:1062
+msgid "A list of the game's notable composers, separated by commas."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:736
+#: admin/class-indiedev-game-marketer-admin.php:1066
+#: admin/class-indiedev-game-marketer-admin.php:1393
+msgid "Game Engine"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:740
+#: admin/class-indiedev-game-marketer-admin.php:1070
+msgid "The engine the game was developed on."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:744
+#: admin/class-indiedev-game-marketer-admin.php:1074
+#: admin/class-indiedev-game-marketer-admin.php:1393
+msgid "Franchise/Series"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:748
+#: admin/class-indiedev-game-marketer-admin.php:1078
+msgid ""
+"If the game is part of a franchise or series, write the name of the "
+"franchise or series here.  Otherwise, leave blank."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:752
+#: admin/class-indiedev-game-marketer-admin.php:1082
+msgid "Platform One"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:756
+msgid ""
+"The platform or console the game is designed for that you wish to list first."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:760
+#: admin/class-indiedev-game-marketer-admin.php:1090
+msgid "Release Date on Platform One"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:764
+#: admin/class-indiedev-game-marketer-admin.php:1094
+msgid "The release date or planned release date on platform one."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:768
+#: admin/class-indiedev-game-marketer-admin.php:1098
+msgid "Platform Two"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:772
+#: admin/class-indiedev-game-marketer-admin.php:1102
+msgid ""
+"The platform or console the game is designed for that you wish to list "
+"second."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:776
+#: admin/class-indiedev-game-marketer-admin.php:1106
+msgid "Release Date on Platform Two"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:780
+#: admin/class-indiedev-game-marketer-admin.php:1110
+msgid "The release date or planned release date on platform two."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:784
+#: admin/class-indiedev-game-marketer-admin.php:1114
+msgid "Platform Three"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:788
+#: admin/class-indiedev-game-marketer-admin.php:804
+#: admin/class-indiedev-game-marketer-admin.php:820
+#: admin/class-indiedev-game-marketer-admin.php:836
+#: admin/class-indiedev-game-marketer-admin.php:852
+#: admin/class-indiedev-game-marketer-admin.php:868
+#: admin/class-indiedev-game-marketer-admin.php:884
+#: admin/class-indiedev-game-marketer-admin.php:900
+#: admin/class-indiedev-game-marketer-admin.php:1118
+#: admin/class-indiedev-game-marketer-admin.php:1134
+#: admin/class-indiedev-game-marketer-admin.php:1150
+#: admin/class-indiedev-game-marketer-admin.php:1166
+#: admin/class-indiedev-game-marketer-admin.php:1182
+#: admin/class-indiedev-game-marketer-admin.php:1198
+#: admin/class-indiedev-game-marketer-admin.php:1214
+#: admin/class-indiedev-game-marketer-admin.php:1230
+msgid "An additional platform or console the game is designed for."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:792
+#: admin/class-indiedev-game-marketer-admin.php:1122
+msgid "Release Date on Platform Three"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:796
+#: admin/class-indiedev-game-marketer-admin.php:1126
+msgid "The release date or planned release date on platform three."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:800
+#: admin/class-indiedev-game-marketer-admin.php:1130
+msgid "Platform Four"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:808
+#: admin/class-indiedev-game-marketer-admin.php:1138
+msgid "Release Date on Platform Four"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:812
+#: admin/class-indiedev-game-marketer-admin.php:1142
+msgid "The release date or planned release date on platform four."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:816
+#: admin/class-indiedev-game-marketer-admin.php:1146
+msgid "Platform Five"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:824
+#: admin/class-indiedev-game-marketer-admin.php:1154
+msgid "Release Date on Platform Five"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:828
+#: admin/class-indiedev-game-marketer-admin.php:1158
+msgid "The release date or planned release date on platform five."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:832
+#: admin/class-indiedev-game-marketer-admin.php:1162
+msgid "Platform Six"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:840
+#: admin/class-indiedev-game-marketer-admin.php:1170
+msgid "Release Date on Platform Six"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:844
+#: admin/class-indiedev-game-marketer-admin.php:1174
+msgid "The release date or planned release date on platform six."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:848
+#: admin/class-indiedev-game-marketer-admin.php:1178
+msgid "Platform Seven"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:856
+#: admin/class-indiedev-game-marketer-admin.php:1186
+msgid "Release Date on Platform Seven"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:860
+#: admin/class-indiedev-game-marketer-admin.php:1190
+msgid "The release date or planned release date on platform seven."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:864
+#: admin/class-indiedev-game-marketer-admin.php:1194
+msgid "Platform Eight"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:872
+#: admin/class-indiedev-game-marketer-admin.php:1202
+msgid "Release Date on Platform Eight"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:876
+#: admin/class-indiedev-game-marketer-admin.php:1206
+msgid "The release date or planned release date on platform eight."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:880
+#: admin/class-indiedev-game-marketer-admin.php:1210
+msgid "Platform Nine"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:888
+#: admin/class-indiedev-game-marketer-admin.php:1218
+msgid "Release Date on Platform Nine"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:892
+#: admin/class-indiedev-game-marketer-admin.php:1222
+msgid "The release date or planned release date on platform nine."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:896
+#: admin/class-indiedev-game-marketer-admin.php:1226
+msgid "Platform Ten"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:904
+#: admin/class-indiedev-game-marketer-admin.php:1234
+msgid "Release Date on Platform Ten"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:908
+#: admin/class-indiedev-game-marketer-admin.php:1238
+msgid "The release date or planned release date on platform ten."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:911
+#: admin/class-indiedev-game-marketer-admin.php:1241
+msgid "Close"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:911
+msgid "Save Game"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:913
+msgid "Edit Games"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:915
+msgid "Edit Game"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1086
+msgid ""
+"The platform or console the game will be released on first.  Your earliest "
+"release should be listed here.  Feel free to put Early Access here if the "
+"inital launch is not the full finalized release."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1241
+msgid "Update Game"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1248
+#: admin/class-indiedev-game-marketer-admin.php:1852
+#: admin/class-indiedev-game-marketer-admin.php:2021
+msgid "Edit"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1248
+#: admin/class-indiedev-game-marketer-admin.php:1645
+#: admin/class-indiedev-game-marketer-admin.php:1852
+#: admin/class-indiedev-game-marketer-admin.php:2021
+msgid "Delete"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1311
+msgid "Press Kit"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1360
+msgid "Are you sure you want to create a press kit for this game?"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1385
+msgid "Game"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1392
+msgid "Presskit URL"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1392
+msgid "Press Release Template"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1393
+#: public/class-indiedev-game-marketer-public.php:558
+#: public/class-indiedev-game-marketer-public.php:568
+msgid "Icon"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1393
+msgid "Multiplayer"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+msgid "Company"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:270
+msgid "Name"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:273
+#: public/class-indiedev-game-marketer-public.php:454
+#: public/class-indiedev-game-marketer-public.php:502
+msgid "Description"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+msgid "Roles"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+msgid "Email"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:285
+#: public/class-indiedev-game-marketer-public.php:643
+msgid "Website"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:288
+#: public/class-indiedev-game-marketer-public.php:655
+msgid "Facebook"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:291
+#: public/class-indiedev-game-marketer-public.php:649
+msgid "Twitter"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:294
+#: public/class-indiedev-game-marketer-public.php:652
+msgid "YouTube"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1396
+#: public/class-indiedev-game-marketer-public.php:297
+#: public/class-indiedev-game-marketer-public.php:646
+msgid "Phone"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1410
+msgid "No OpenSSL found.  Twitter will not work."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1412
+msgid "Required OpenSSL extension was found."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1435
+msgid ""
+"Less than 3 tweets loaded, meaning the test failed.  This means you have "
+"either 1) reached your Twitter API call limit, 2) have the wrong values in "
+"your Twitter Settings, or 3) do not have have your Twitter App set up "
+"correctly."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1452
+msgid "Testing Your Twitter Settings"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1587
+msgid ""
+"You cannot post a tweet that has more than 140 characters.  Please revise "
+"your tweet and try again."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1635
+msgid "Scheduled Tweets"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:1693
+msgid ""
+"Are you sure you want to delete this game? This action cannot be reversed!"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:2445
+#: admin/class-indiedev-game-marketer-admin.php:2488
+msgid "Video Game"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:2446
+msgid "Promo Type"
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:2462
+#: admin/class-indiedev-game-marketer-admin.php:2504
+msgid "No game selected."
+msgstr ""
+
+#: admin/class-indiedev-game-marketer-admin.php:2549
+#: admin/partials/indiedev-game-marketer-admin-display.php:51
+#: admin/partials/indiedev-game-marketer-admin-display.php:73
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:23
+msgid "Full Documentation"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:50
+#: admin/partials/indiedev-game-marketer-admin-display.php:61
+msgid "Dashboard"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:52
+#: admin/partials/indiedev-game-marketer-admin-display.php:80
+msgid "Games"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:53
+#: admin/partials/indiedev-game-marketer-admin-display.php:87
+msgid "Press Kits"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:54
+#: admin/partials/indiedev-game-marketer-admin-display.php:94
+msgid "Social"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:55
+#: admin/partials/indiedev-game-marketer-admin-display.php:101
+msgid "More"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:63
+msgid "About This Plugin"
+msgstr ""
+
+#: admin/partials/indiedev-game-marketer-admin-display.php:64
+msgid ""
+"Creating a good game is hard, but that's only half the battle.  If you don't "
+"market your game, chances are fewer people will end up playing it!  Indiedev "
+"Game Marketer is an open source Wordpress plugin, forever free and forever "
+"without a premium version to buy. Why? Because making a good game is hard, "
+"but making a good marketing campaign is usually just as hard, if not even "
+"more difficult, especially if you don't come from a marketing background.  "
+"Time is money, and it is my hope that this plugin will help indies more "
+"affectively market their games, without increasing the cost of marketing.  "
+"However, this plugin is just a tool that covers the bare minimums, and while "
+"it hopefully makes your life easier, the hard work of marketing is still up "
+"to you to complete.  Good luck!"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:115
+msgctxt "taxonomy general name"
+msgid "Game Promo Types"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:116
+msgctxt "taxonomy singular name"
+msgid "Game Promo Type"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:117
+msgid "Search Game Promos"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:118
+msgid "All Game Promos"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:119
+msgid "Edit Game Promo Type"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:120
+msgid "Update Game Promo Type"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:121
+msgid "Add New Game Promo Type"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:122
+msgid "New Game Promo Type Name"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:123
+msgid "Game Promo Types"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:137
+#: public/class-indiedev-game-marketer-public.php:138
+#: public/class-indiedev-game-marketer-public.php:139
+msgid "Promo Materials"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:140
+msgid "All Promo Materials"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:141
+msgid "View Promo"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:142
+msgid "Add New Game Promo"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:143
+#: public/class-indiedev-game-marketer-public.php:221
+msgid "Add New"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:144
+msgid "Edit Promo"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:145
+msgid "Update Promo"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:146
+msgid "Search Promo"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:147
+#: public/class-indiedev-game-marketer-public.php:225
+msgid "Not Found"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:148
+#: public/class-indiedev-game-marketer-public.php:226
+msgid "Not found in Trash"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:168
+#: public/class-indiedev-game-marketer-public.php:170
+msgid "Screenshots"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:173
+msgid "Screenshots of the game."
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:179
+#: public/class-indiedev-game-marketer-public.php:181
+msgid "Videos"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:184
+#: public/class-indiedev-game-marketer-public.php:195
+msgid "Videos of the game."
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:190
+#: public/class-indiedev-game-marketer-public.php:192
+msgid "Press Coverage"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:201
+#: public/class-indiedev-game-marketer-public.php:203
+msgid "Awards"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:206
+msgid "Awards the game won."
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:215
+#: public/class-indiedev-game-marketer-public.php:217
+#: public/class-indiedev-game-marketer-public.php:582
+#: public/class-indiedev-game-marketer-public.php:583
+msgid "Press Releases"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:216
+msgid "Press Release"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:218
+msgid "All Press Releases"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:219
+msgid "View Press Release"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:220
+msgid "Add New Press Release"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:222
+msgid "Edit Press Release"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:223
+msgid "Update Press Release"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:224
+msgid "Search Press Releases"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:276
+msgid "Location"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:279
+msgid "Industry Role"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:282
+msgid "Press Contact"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:451
+msgid "Contents"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:453
+#: public/class-indiedev-game-marketer-public.php:457
+msgid "Factsheet"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:461
+msgid "Developer"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:465
+msgid "Publisher"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:469
+msgid "Official Website"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:473
+msgid "Steam Greenlight"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:477
+msgid "Initial release date"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:481
+msgid "Platforms"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:495
+msgid "Regular price"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:552
+msgid "Logo & Icon"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:595
+#: public/class-indiedev-game-marketer-public.php:598
+msgid "About"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:602
+#: public/class-indiedev-game-marketer-public.php:604
+msgid "Credits"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:635
+#: public/class-indiedev-game-marketer-public.php:637
+msgid "Contact"
+msgstr ""
+
+#: public/class-indiedev-game-marketer-public.php:640
+msgid "Inquiries"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://blacklodgegames.com/indiedev-game-marketer-wp-plugin-for-wordpress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Promote indie games for all platforms using the power & familiarity of "
+"Wordpress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "BLACK LODGE GAMES, LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://blacklodgegames.com"
+msgstr ""
