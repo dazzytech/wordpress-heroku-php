@@ -1,0 +1,947 @@
+2017-09-26 01:41:37		Testing of ZIP under shell was finished successfully
+2017-09-26 01:41:37		Testing of TarGz was finished successfully
+2017-09-26 01:41:54		Create Unique Id wpadm_method__local_backup__59c9b06218005
+2017-09-26 01:41:54		Start Backup process...
+2017-09-26 01:41:54		Creating Database Dump
+2017-09-26 01:41:54		Optimization of database tables was started
+2017-09-26 01:41:54		Database table optimization of `wp_commentmeta` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_comments` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_failed_jobs` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_links` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_mailchimp_carts` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_options` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_postmeta` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_posts` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_queue` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_term_relationships` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_term_taxonomy` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_termmeta` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_terms` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_usermeta` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_users` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_wcpdf_invoice_number` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_api_keys` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_attribute_taxonomies` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_downloadable_product_permissions` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_log` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_order_itemmeta` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_order_items` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_payment_tokenmeta` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_payment_tokens` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_sessions` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_shipping_zone_locations` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_shipping_zone_methods` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_shipping_zones` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_tax_rate_locations` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_woocommerce_tax_rates` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_wpml_mails` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_yoast_seo_links` was successfully
+2017-09-26 01:41:54		Database table optimization of `wp_yoast_seo_meta` was successfully
+2017-09-26 01:41:54		Optimization of database tables was Finished
+2017-09-26 01:41:54		Creating of MySQL dump was started
+2017-09-26 01:41:54		Add table "wp_commentmeta" to the database dump
+2017-09-26 01:41:54		Add table "wp_comments" to the database dump
+2017-09-26 01:41:54		Performing of database query: SELECT * FROM wp_comments LIMIT 0, 1000
+2017-09-26 01:41:54		Add table "wp_failed_jobs" to the database dump
+2017-09-26 01:41:55		Performing of database query: SELECT * FROM wp_failed_jobs LIMIT 0, 1000
+2017-09-26 01:41:55		Add table "wp_links" to the database dump
+2017-09-26 01:41:55		Add table "wp_mailchimp_carts" to the database dump
+2017-09-26 01:41:55		Add table "wp_options" to the database dump
+2017-09-26 01:41:55		Performing of database query: SELECT * FROM wp_options LIMIT 0, 1000
+2017-09-26 01:41:56		Add table "wp_postmeta" to the database dump
+2017-09-26 01:41:56		Performing of database query: SELECT * FROM wp_postmeta LIMIT 0, 1000
+2017-09-26 01:41:58		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1000, 1000
+2017-09-26 01:42:00		Performing of database query: SELECT * FROM wp_postmeta LIMIT 2000, 1000
+2017-09-26 01:42:04		Performing of database query: SELECT * FROM wp_postmeta LIMIT 3000, 1000
+2017-09-26 01:42:07		Performing of database query: SELECT * FROM wp_postmeta LIMIT 4000, 1000
+2017-09-26 01:42:09		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5000, 1000
+2017-09-26 01:42:11		Performing of database query: SELECT * FROM wp_postmeta LIMIT 6000, 1000
+2017-09-26 01:42:13		Add table "wp_posts" to the database dump
+2017-09-26 01:42:13		Performing of database query: SELECT * FROM wp_posts LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_queue" to the database dump
+2017-09-26 01:42:14		Add table "wp_term_relationships" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_term_relationships LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_term_taxonomy" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_term_taxonomy LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_termmeta" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_termmeta LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_terms" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_terms LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_usermeta" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_usermeta LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_users" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_users LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_wcpdf_invoice_number" to the database dump
+2017-09-26 01:42:14		Performing of database query: SELECT * FROM wp_wcpdf_invoice_number LIMIT 0, 1000
+2017-09-26 01:42:14		Add table "wp_woocommerce_api_keys" to the database dump
+2017-09-26 01:42:14		Add table "wp_woocommerce_attribute_taxonomies" to the database dump
+2017-09-26 01:42:15		Add table "wp_woocommerce_downloadable_product_permissions" to the database dump
+2017-09-26 01:42:15		Add table "wp_woocommerce_log" to the database dump
+2017-09-26 01:42:15		Add table "wp_woocommerce_order_itemmeta" to the database dump
+2017-09-26 01:42:15		Performing of database query: SELECT * FROM wp_woocommerce_order_itemmeta LIMIT 0, 1000
+2017-09-26 01:42:15		Add table "wp_woocommerce_order_items" to the database dump
+2017-09-26 01:42:15		Performing of database query: SELECT * FROM wp_woocommerce_order_items LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_woocommerce_payment_tokenmeta" to the database dump
+2017-09-26 01:42:16		Add table "wp_woocommerce_payment_tokens" to the database dump
+2017-09-26 01:42:16		Add table "wp_woocommerce_sessions" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_woocommerce_sessions LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_woocommerce_shipping_zone_locations" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_woocommerce_shipping_zone_locations LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_woocommerce_shipping_zone_methods" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_woocommerce_shipping_zone_methods LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_woocommerce_shipping_zones" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_woocommerce_shipping_zones LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_woocommerce_tax_rate_locations" to the database dump
+2017-09-26 01:42:16		Add table "wp_woocommerce_tax_rates" to the database dump
+2017-09-26 01:42:16		Add table "wp_wpml_mails" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_wpml_mails LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_yoast_seo_links" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_yoast_seo_links LIMIT 0, 1000
+2017-09-26 01:42:16		Add table "wp_yoast_seo_meta" to the database dump
+2017-09-26 01:42:16		Performing of database query: SELECT * FROM wp_yoast_seo_meta LIMIT 0, 1000
+2017-09-26 01:42:16		Creating of MySQL database dump was finished
+2017-09-26 01:42:16		Database Dump was successfully created ( 2.53 Mb) : /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/Dropbox_Backup/mysqldump.sql
+2017-09-26 01:42:17		Skip of Backup-Folder /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/plugins/dropbox-backup
+2017-09-26 01:42:20		Skip of Cache-Folder /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-includes/SimplePie/Cache
+2017-09-26 01:42:20		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/plugins/wp-mail-logging/lib/vendor/redux-framework/languages/redux-framework-lt_LT.mo Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/sabberworm/php-css-parser/tests/files/-empty.css Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/plugins/mailchimp-for-woocommerce/languages/mailchimp-woocommerce.pot Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170828_144624.jpg Size 1.4Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Dark-brown.jpg Size 2.11Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/pure-white.jpg Size 1.4Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Light-pink.jpg Size 1.72Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/GRAYISH-WHITE.jpg Size 1.35Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/PINK.jpg Size 1.97Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/beige.jpg Size 1.74Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/sizers.png Size 3.85Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/sizers-1024x1024.png Size 1.26Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/pastel-set.png Size 7.17Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/pastel-set-1024x1024.png Size 1.2Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/basic.png Size 3.18Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/basic-1024x1024.png Size 1.28Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/needle.png Size 1.06Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/trial-pack.png Size 3.16Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Eyes.png Size 1.15Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/trial-pack-1024x1024.png Size 1.17Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/needle-combo.png Size 7.96Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/needle-combo-1024x1024.png Size 1.53Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/3-needle.png Size 1.01Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Eyes-1.png Size 1.15Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Metal-Findings.png Size 3.81Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Metal-Findings-1024x1024.png Size 1.13Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/ball-chain.png Size 1.27Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/felting-pad.png Size 3.5Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/felting-pad-1024x1024.png Size 1021.72Kb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/fiberfill.png Size 2.98Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Fabric-glue.png Size 3.89Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Fabric-glue-1024x1024.png Size 1.15Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/e-6000.png Size 1007.45Kb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/leathercot.png Size 2.8Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Silica-Gel.png Size 6.38Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Silica-Gel-1024x1024.png Size 1.64Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/multiple-needle-holder.png Size 1.62Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/hamanaka.png Size 1.71Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/single-needle-holder.png Size 1.53Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/single-needle-holder-1024x1024.png Size 1.11Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Needle-coffer.png Size 3.76Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Needle-coffer-1024x1024.png Size 1.17Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Starter-Kit.png Size 6.69Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Starter-Kit-1024x1024.png Size 1.27Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170720_125047.jpg Size 3.39Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Set-b.jpg Size 1.9Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/Seta.jpg Size 1.87Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170907_195135.jpg Size 1Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170907_193922.jpg Size 2.1Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170907_234007.jpg Size 1.13Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/fabrci-glue.png Size 5.2Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170911_191758.jpg Size 2.52Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170911_191427.jpg Size 1.23Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170911_191427-1.jpg Size 1.3Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170911_204100.jpg Size 1.16Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170912_074729.jpg Size 1.61Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170912_081453.jpg Size 1.89Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170912_115326.jpg Size 2.88Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170912_145941.jpg Size 1.34Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/08/IMG_20170912_150011.jpg Size 1.02Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/09/Acrylic-wool-felt-for-needle-felting-available-in-the-Philippines.jpg Size 2.11Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/2017/09/Wool-felt-ph-wool-felting-sampler-box.jpg Size 1.82Mb (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/woocommerce_uploads/index.html Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/wc-logs/index.html Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/wc-logs/test-log.log Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/woocommerce-pdf-invoices/attachments/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/woocommerce-pdf-invoices/attachments/2017/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/woocommerce-pdf-invoices/fonts/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/woocommerce-pdf-invoices/mpdf/ttfontdata/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/wpo_wcpdf/attachments/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/wpo_wcpdf/fonts/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/uploads/wpo_wcpdf/dompdf/index.php Size 0b (0644)
+2017-09-26 01:42:21		File /var/lib/openshift/59a3e7800c1e66f2e6000012/app-root/data/current/wp-content/Dropbox_Backup/mysqldump.sql Size 2.53Mb (0644)
+2017-09-26 01:42:21		List of backup files was successfully created
+2017-09-26 01:42:21		Backup of files was started
+2017-09-26 01:42:21		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-1.tar.gz
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:21		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-2.tar.gz
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:21		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-3.tar.gz
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:21		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-4.tar.gz
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:21		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-5.tar.gz
+2017-09-26 01:42:21		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:22		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:22		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-6.tar.gz
+2017-09-26 01:42:22		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:22		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:22		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-7.tar.gz
+2017-09-26 01:42:22		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:23		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-8.tar.gz
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:23		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-9.tar.gz
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:23		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-10.tar.gz
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:23		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-11.tar.gz
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:23		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:23		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-12.tar.gz
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:24		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-13.tar.gz
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:24		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-14.tar.gz
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:24		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-15.tar.gz
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:24		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-16.tar.gz
+2017-09-26 01:42:24		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:25		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:25		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-17.tar.gz
+2017-09-26 01:42:25		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:25		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:25		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-18.tar.gz
+2017-09-26 01:42:25		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:25		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:25		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-19.tar.gz
+2017-09-26 01:42:25		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:26		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-20.tar.gz
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:26		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-21.tar.gz
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:26		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-22.tar.gz
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:26		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-23.tar.gz
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:26		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-24.tar.gz
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:26		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:26		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-25.tar.gz
+2017-09-26 01:42:27		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:27		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:27		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-26.tar.gz
+2017-09-26 01:42:27		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:28		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-27.tar.gz
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:28		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-28.tar.gz
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:28		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-29.tar.gz
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:28		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-30.tar.gz
+2017-09-26 01:42:28		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-31.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-32.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-33.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-34.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-35.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-36.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:29		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-37.tar.gz
+2017-09-26 01:42:29		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:30		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-38.tar.gz
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:30		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-39.tar.gz
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:30		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-40.tar.gz
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:30		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-41.tar.gz
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:30		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-42.tar.gz
+2017-09-26 01:42:30		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:31		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-43.tar.gz
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:31		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-44.tar.gz
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:31		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-45.tar.gz
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:31		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-46.tar.gz
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:31		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-47.tar.gz
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:31		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-48.tar.gz
+2017-09-26 01:42:31		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:32		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:32		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-49.tar.gz
+2017-09-26 01:42:32		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:32		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:32		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-50.tar.gz
+2017-09-26 01:42:32		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:32		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:32		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-51.tar.gz
+2017-09-26 01:42:32		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-52.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-53.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-54.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-55.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-56.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-57.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:33		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-58.tar.gz
+2017-09-26 01:42:33		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:34		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-59.tar.gz
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:34		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-60.tar.gz
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:34		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-61.tar.gz
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:34		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-62.tar.gz
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:34		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-63.tar.gz
+2017-09-26 01:42:34		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:35		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-64.tar.gz
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:35		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-65.tar.gz
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:35		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-66.tar.gz
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:35		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-67.tar.gz
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:35		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-68.tar.gz
+2017-09-26 01:42:35		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:36		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-69.tar.gz
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:36		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-70.tar.gz
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:36		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-71.tar.gz
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:36		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-72.tar.gz
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:36		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-73.tar.gz
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:36		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-74.tar.gz
+2017-09-26 01:42:36		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:37		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-75.tar.gz
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:37		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-76.tar.gz
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:37		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-77.tar.gz
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:37		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-78.tar.gz
+2017-09-26 01:42:37		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-79.tar.gz
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-80.tar.gz
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-81.tar.gz
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-82.tar.gz
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-83.tar.gz
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-84.tar.gz
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:38		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:38		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-85.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:39		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-86.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:39		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-87.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:39		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-88.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:39		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-89.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:39		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-90.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:39		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-91.tar.gz
+2017-09-26 01:42:39		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:40		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:40		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-92.tar.gz
+2017-09-26 01:42:40		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:40		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:40		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-93.tar.gz
+2017-09-26 01:42:40		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:40		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:40		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-94.tar.gz
+2017-09-26 01:42:40		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-95.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-96.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-97.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-98.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-99.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-100.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-101.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:41		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-102.tar.gz
+2017-09-26 01:42:41		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:42		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:42		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-103.tar.gz
+2017-09-26 01:42:42		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:42		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:42		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-104.tar.gz
+2017-09-26 01:42:42		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:42		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:42		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-105.tar.gz
+2017-09-26 01:42:42		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-106.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-107.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-108.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-109.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-110.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-111.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:43		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-112.tar.gz
+2017-09-26 01:42:43		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:44		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-113.tar.gz
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:44		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-114.tar.gz
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:44		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-115.tar.gz
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:44		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-116.tar.gz
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:44		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-117.tar.gz
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:44		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-118.tar.gz
+2017-09-26 01:42:44		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:45		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-119.tar.gz
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:45		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-120.tar.gz
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:45		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-121.tar.gz
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:45		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-122.tar.gz
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:45		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-123.tar.gz
+2017-09-26 01:42:45		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:46		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-124.tar.gz
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:46		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-125.tar.gz
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:46		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-126.tar.gz
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:46		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-127.tar.gz
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:46		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-128.tar.gz
+2017-09-26 01:42:46		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:47		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:47		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-129.tar.gz
+2017-09-26 01:42:47		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:48		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:48		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-130.tar.gz
+2017-09-26 01:42:48		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:49		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:49		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-131.tar.gz
+2017-09-26 01:42:49		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:49		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:49		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-132.tar.gz
+2017-09-26 01:42:49		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:50		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:50		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-133.tar.gz
+2017-09-26 01:42:50		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:51		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:51		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-134.tar.gz
+2017-09-26 01:42:51		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:52		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:52		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-135.tar.gz
+2017-09-26 01:42:52		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:52		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:52		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-136.tar.gz
+2017-09-26 01:42:52		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:53		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:53		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-137.tar.gz
+2017-09-26 01:42:53		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:53		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:53		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-138.tar.gz
+2017-09-26 01:42:53		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:54		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:54		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-139.tar.gz
+2017-09-26 01:42:54		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:56		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:56		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-140.tar.gz
+2017-09-26 01:42:56		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:42:58		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:42:58		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-141.tar.gz
+2017-09-26 01:42:58		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:00		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:00		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-142.tar.gz
+2017-09-26 01:43:00		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:01		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:01		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-143.tar.gz
+2017-09-26 01:43:02		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:03		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:03		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-144.tar.gz
+2017-09-26 01:43:03		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:03		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:03		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-145.tar.gz
+2017-09-26 01:43:04		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:05		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:05		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-146.tar.gz
+2017-09-26 01:43:05		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:06		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:06		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-147.tar.gz
+2017-09-26 01:43:06		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:06		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:06		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-148.tar.gz
+2017-09-26 01:43:06		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:07		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:07		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-149.tar.gz
+2017-09-26 01:43:07		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:07		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:07		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-150.tar.gz
+2017-09-26 01:43:07		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:07		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:07		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-151.tar.gz
+2017-09-26 01:43:07		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:08		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:08		Create part jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-152.tar.gz
+2017-09-26 01:43:08		Trying to add files to archive using Tar shell or tar class
+2017-09-26 01:43:08		Trying to add files to archive using Tar shell or tar class was successful
+2017-09-26 01:43:08		Backup of files was finished
+2017-09-26 01:43:08		Backup size 264.25Mb
+2017-09-26 01:43:08		Backup creation was complete successfully!
+2017-09-26 01:43:45		Start copy to Dropbox Cloud
+2017-09-26 01:43:45		Send to dropbox files
+2017-09-26 01:43:48		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-1.tar.gz size: 400.7 KB
+2017-09-26 01:43:48		Send to dropbox files
+2017-09-26 01:43:50		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-10.tar.gz size: 824.8 KB
+2017-09-26 01:43:50		Send to dropbox files
+2017-09-26 01:43:53		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-100.tar.gz size: 1.6 MB
+2017-09-26 01:43:53		Send to dropbox files
+2017-09-26 01:43:55		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-101.tar.gz size: 1.5 MB
+2017-09-26 01:43:55		Send to dropbox files
+2017-09-26 01:43:57		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-102.tar.gz size: 1.5 MB
+2017-09-26 01:43:57		Send to dropbox files
+2017-09-26 01:43:59		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-103.tar.gz size: 1.5 MB
+2017-09-26 01:43:59		Send to dropbox files
+2017-09-26 01:44:02		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-104.tar.gz size: 1.8 MB
+2017-09-26 01:44:02		Send to dropbox files
+2017-09-26 01:44:05		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-105.tar.gz size: 3.3 MB
+2017-09-26 01:44:05		Send to dropbox files
+2017-09-26 01:44:07		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-106.tar.gz size: 1.5 MB
+2017-09-26 01:44:07		Send to dropbox files
+2017-09-26 01:44:10		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-107.tar.gz size: 1.5 MB
+2017-09-26 01:44:10		Send to dropbox files
+2017-09-26 01:44:12		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-108.tar.gz size: 3.2 MB
+2017-09-26 01:44:12		Send to dropbox files
+2017-09-26 01:44:14		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-109.tar.gz size: 2.1 MB
+2017-09-26 01:44:14		Send to dropbox files
+2017-09-26 01:44:16		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-11.tar.gz size: 400.2 KB
+2017-09-26 01:44:16		Send to dropbox files
+2017-09-26 01:44:18		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-110.tar.gz size: 1.7 MB
+2017-09-26 01:44:18		Send to dropbox files
+2017-09-26 01:44:22		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-111.tar.gz size: 1.9 MB
+2017-09-26 01:44:22		Send to dropbox files
+2017-09-26 01:44:24		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-112.tar.gz size: 1.6 MB
+2017-09-26 01:44:24		Send to dropbox files
+2017-09-26 01:44:26		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-113.tar.gz size: 1.6 MB
+2017-09-26 01:44:26		Send to dropbox files
+2017-09-26 01:44:28		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-114.tar.gz size: 2 MB
+2017-09-26 01:44:28		Send to dropbox files
+2017-09-26 01:44:30		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-115.tar.gz size: 2.9 MB
+2017-09-26 01:44:30		Send to dropbox files
+2017-09-26 01:44:33		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-116.tar.gz size: 1.4 MB
+2017-09-26 01:44:33		Send to dropbox files
+2017-09-26 01:44:35		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-117.tar.gz size: 1.5 MB
+2017-09-26 01:44:35		Send to dropbox files
+2017-09-26 01:44:38		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-118.tar.gz size: 2.1 MB
+2017-09-26 01:44:38		Send to dropbox files
+2017-09-26 01:44:40		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-119.tar.gz size: 1.8 MB
+2017-09-26 01:44:40		Send to dropbox files
+2017-09-26 01:44:42		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-12.tar.gz size: 263.8 KB
+2017-09-26 01:44:42		Send to dropbox files
+2017-09-26 01:44:47		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-120.tar.gz size: 6.4 MB
+2017-09-26 01:44:47		Send to dropbox files
+2017-09-26 01:44:49		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-121.tar.gz size: 1.4 MB
+2017-09-26 01:44:49		Send to dropbox files
+2017-09-26 01:44:53		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-122.tar.gz size: 3.1 MB
+2017-09-26 01:44:53		Send to dropbox files
+2017-09-26 01:44:55		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-123.tar.gz size: 1.5 MB
+2017-09-26 01:44:55		Send to dropbox files
+2017-09-26 01:44:57		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-124.tar.gz size: 1.4 MB
+2017-09-26 01:44:57		Send to dropbox files
+2017-09-26 01:44:59		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-125.tar.gz size: 1.7 MB
+2017-09-26 01:44:59		Send to dropbox files
+2017-09-26 01:45:03		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-126.tar.gz size: 1.1 MB
+2017-09-26 01:45:03		Send to dropbox files
+2017-09-26 01:45:06		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-127.tar.gz size: 1.3 MB
+2017-09-26 01:45:06		Send to dropbox files
+2017-09-26 01:45:09		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-128.tar.gz size: 1.6 MB
+2017-09-26 01:45:09		Send to dropbox files
+2017-09-26 01:45:11		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-129.tar.gz size: 2 MB
+2017-09-26 01:45:11		Send to dropbox files
+2017-09-26 01:45:13		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-13.tar.gz size: 279.8 KB
+2017-09-26 01:45:13		Send to dropbox files
+2017-09-26 01:45:16		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-130.tar.gz size: 3.5 MB
+2017-09-26 01:45:16		Send to dropbox files
+2017-09-26 01:45:18		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-131.tar.gz size: 2.3 MB
+2017-09-26 01:45:18		Send to dropbox files
+2017-09-26 01:45:21		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-132.tar.gz size: 1.4 MB
+2017-09-26 01:45:21		Send to dropbox files
+2017-09-26 01:45:23		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-133.tar.gz size: 2.9 MB
+2017-09-26 01:45:23		Send to dropbox files
+2017-09-26 01:45:26		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-134.tar.gz size: 2.2 MB
+2017-09-26 01:45:26		Send to dropbox files
+2017-09-26 01:45:28		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-135.tar.gz size: 1.2 MB
+2017-09-26 01:45:28		Send to dropbox files
+2017-09-26 01:45:30		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-136.tar.gz size: 634.5 KB
+2017-09-26 01:45:30		Send to dropbox files
+2017-09-26 01:45:32		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-137.tar.gz size: 753.5 KB
+2017-09-26 01:45:32		Send to dropbox files
+2017-09-26 01:45:34		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-138.tar.gz size: 790.5 KB
+2017-09-26 01:45:34		Send to dropbox files
+2017-09-26 01:45:36		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-139.tar.gz size: 827.4 KB
+2017-09-26 01:45:36		Send to dropbox files
+2017-09-26 01:45:38		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-14.tar.gz size: 305.1 KB
+2017-09-26 01:45:38		Send to dropbox files
+2017-09-26 01:45:40		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-140.tar.gz size: 0.9 MB
+2017-09-26 01:45:40		Send to dropbox files
+2017-09-26 01:45:42		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-141.tar.gz size: 565.3 KB
+2017-09-26 01:45:42		Send to dropbox files
+2017-09-26 01:45:44		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-142.tar.gz size: 0.9 MB
+2017-09-26 01:45:44		Send to dropbox files
+2017-09-26 01:45:46		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-143.tar.gz size: 1 MB
+2017-09-26 01:45:46		Send to dropbox files
+2017-09-26 01:45:47		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-144.tar.gz size: 536.6 KB
+2017-09-26 01:45:47		Send to dropbox files
+2017-09-26 01:45:49		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-145.tar.gz size: 583.6 KB
+2017-09-26 01:45:49		Send to dropbox files
+2017-09-26 01:45:51		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-146.tar.gz size: 568.6 KB
+2017-09-26 01:45:51		Send to dropbox files
+2017-09-26 01:45:53		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-147.tar.gz size: 550 KB
+2017-09-26 01:45:53		Send to dropbox files
+2017-09-26 01:45:55		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-148.tar.gz size: 344.3 KB
+2017-09-26 01:45:55		Send to dropbox files
+2017-09-26 01:45:57		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-149.tar.gz size: 335.6 KB
+2017-09-26 01:45:57		Send to dropbox files
+2017-09-26 01:45:59		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-15.tar.gz size: 310.1 KB
+2017-09-26 01:45:59		Send to dropbox files
+2017-09-26 01:46:01		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-150.tar.gz size: 473.2 KB
+2017-09-26 01:46:01		Send to dropbox files
+2017-09-26 01:46:05		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-151.tar.gz size: 430.4 KB
+2017-09-26 01:46:05		Send to dropbox files
+2017-09-26 01:46:07		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-152.tar.gz size: 625.4 KB
+2017-09-26 01:46:07		Send to dropbox files
+2017-09-26 01:46:09		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-16.tar.gz size: 369 KB
+2017-09-26 01:46:09		Send to dropbox files
+2017-09-26 01:46:11		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-17.tar.gz size: 769.8 KB
+2017-09-26 01:46:11		Send to dropbox files
+2017-09-26 01:46:13		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-18.tar.gz size: 801.9 KB
+2017-09-26 01:46:13		Send to dropbox files
+2017-09-26 01:46:15		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-19.tar.gz size: 739.1 KB
+2017-09-26 01:46:15		Send to dropbox files
+2017-09-26 01:46:16		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-2.tar.gz size: 265.2 KB
+2017-09-26 01:46:16		Send to dropbox files
+2017-09-26 01:46:18		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-20.tar.gz size: 744.7 KB
+2017-09-26 01:46:18		Send to dropbox files
+2017-09-26 01:46:20		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-21.tar.gz size: 653 KB
+2017-09-26 01:46:20		Send to dropbox files
+2017-09-26 01:46:22		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-22.tar.gz size: 842.2 KB
+2017-09-26 01:46:22		Send to dropbox files
+2017-09-26 01:46:24		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-23.tar.gz size: 805 KB
+2017-09-26 01:46:24		Send to dropbox files
+2017-09-26 01:46:26		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-24.tar.gz size: 646.2 KB
+2017-09-26 01:46:26		Send to dropbox files
+2017-09-26 01:46:27		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-25.tar.gz size: 323.9 KB
+2017-09-26 01:46:27		Send to dropbox files
+2017-09-26 01:46:29		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-26.tar.gz size: 0.9 MB
+2017-09-26 01:46:29		Send to dropbox files
+2017-09-26 01:46:31		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-27.tar.gz size: 1.1 MB
+2017-09-26 01:46:31		Send to dropbox files
+2017-09-26 01:46:34		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-28.tar.gz size: 1 MB
+2017-09-26 01:46:34		Send to dropbox files
+2017-09-26 01:46:36		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-29.tar.gz size: 1.5 MB
+2017-09-26 01:46:36		Send to dropbox files
+2017-09-26 01:46:38		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-3.tar.gz size: 365.8 KB
+2017-09-26 01:46:38		Send to dropbox files
+2017-09-26 01:46:40		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-30.tar.gz size: 877.3 KB
+2017-09-26 01:46:40		Send to dropbox files
+2017-09-26 01:46:42		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-31.tar.gz size: 1.4 MB
+2017-09-26 01:46:42		Send to dropbox files
+2017-09-26 01:46:45		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-32.tar.gz size: 2.4 MB
+2017-09-26 01:46:45		Send to dropbox files
+2017-09-26 01:46:47		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-33.tar.gz size: 1.2 MB
+2017-09-26 01:46:47		Send to dropbox files
+2017-09-26 01:46:50		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-34.tar.gz size: 1.5 MB
+2017-09-26 01:46:50		Send to dropbox files
+2017-09-26 01:46:52		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-35.tar.gz size: 1.5 MB
+2017-09-26 01:46:52		Send to dropbox files
+2017-09-26 01:46:54		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-36.tar.gz size: 1.7 MB
+2017-09-26 01:46:54		Send to dropbox files
+2017-09-26 01:46:57		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-37.tar.gz size: 1.7 MB
+2017-09-26 01:46:57		Send to dropbox files
+2017-09-26 01:46:59		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-38.tar.gz size: 1.4 MB
+2017-09-26 01:46:59		Send to dropbox files
+2017-09-26 01:47:03		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-39.tar.gz size: 1.8 MB
+2017-09-26 01:47:03		Send to dropbox files
+2017-09-26 01:47:05		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-4.tar.gz size: 544.1 KB
+2017-09-26 01:47:05		Send to dropbox files
+2017-09-26 01:47:07		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-40.tar.gz size: 1.4 MB
+2017-09-26 01:47:07		Send to dropbox files
+2017-09-26 01:47:09		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-41.tar.gz size: 2.2 MB
+2017-09-26 01:47:09		Send to dropbox files
+2017-09-26 01:47:12		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-42.tar.gz size: 1.6 MB
+2017-09-26 01:47:12		Send to dropbox files
+2017-09-26 01:47:15		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-43.tar.gz size: 1.8 MB
+2017-09-26 01:47:15		Send to dropbox files
+2017-09-26 01:47:17		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-44.tar.gz size: 1.4 MB
+2017-09-26 01:47:17		Send to dropbox files
+2017-09-26 01:47:20		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-45.tar.gz size: 2.2 MB
+2017-09-26 01:47:20		Send to dropbox files
+2017-09-26 01:47:23		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-46.tar.gz size: 1.9 MB
+2017-09-26 01:47:23		Send to dropbox files
+2017-09-26 01:47:25		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-47.tar.gz size: 1.2 MB
+2017-09-26 01:47:25		Send to dropbox files
+2017-09-26 01:47:28		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-48.tar.gz size: 2 MB
+2017-09-26 01:47:28		Send to dropbox files
+2017-09-26 01:47:31		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-49.tar.gz size: 4 MB
+2017-09-26 01:47:31		Send to dropbox files
+2017-09-26 01:47:33		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-5.tar.gz size: 610.6 KB
+2017-09-26 01:47:33		Send to dropbox files
+2017-09-26 01:47:36		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-50.tar.gz size: 2.1 MB
+2017-09-26 01:47:36		Send to dropbox files
+2017-09-26 01:47:40		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-51.tar.gz size: 7.6 MB
+2017-09-26 01:47:40		Send to dropbox files
+2017-09-26 01:47:42		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-52.tar.gz size: 2.1 MB
+2017-09-26 01:47:42		Send to dropbox files
+2017-09-26 01:47:44		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-53.tar.gz size: 1.7 MB
+2017-09-26 01:47:44		Send to dropbox files
+2017-09-26 01:47:47		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-54.tar.gz size: 3.2 MB
+2017-09-26 01:47:47		Send to dropbox files
+2017-09-26 01:47:49		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-55.tar.gz size: 2.2 MB
+2017-09-26 01:47:49		Send to dropbox files
+2017-09-26 01:47:51		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-56.tar.gz size: 1.6 MB
+2017-09-26 01:47:51		Send to dropbox files
+2017-09-26 01:47:53		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-57.tar.gz size: 1.5 MB
+2017-09-26 01:47:53		Send to dropbox files
+2017-09-26 01:47:56		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-58.tar.gz size: 3.5 MB
+2017-09-26 01:47:56		Send to dropbox files
+2017-09-26 01:47:58		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-59.tar.gz size: 2 MB
+2017-09-26 01:47:58		Send to dropbox files
+2017-09-26 01:48:00		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-6.tar.gz size: 447.9 KB
+2017-09-26 01:48:00		Send to dropbox files
+2017-09-26 01:48:04		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-60.tar.gz size: 1.7 MB
+2017-09-26 01:48:04		Send to dropbox files
+2017-09-26 01:48:07		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-61.tar.gz size: 1.6 MB
+2017-09-26 01:48:07		Send to dropbox files
+2017-09-26 01:48:11		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-62.tar.gz size: 8 MB
+2017-09-26 01:48:11		Send to dropbox files
+2017-09-26 01:48:14		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-63.tar.gz size: 2.6 MB
+2017-09-26 01:48:14		Send to dropbox files
+2017-09-26 01:48:16		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-64.tar.gz size: 1.9 MB
+2017-09-26 01:48:16		Send to dropbox files
+2017-09-26 01:48:18		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-65.tar.gz size: 1.5 MB
+2017-09-26 01:48:18		Send to dropbox files
+2017-09-26 01:48:20		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-66.tar.gz size: 1.5 MB
+2017-09-26 01:48:20		Send to dropbox files
+2017-09-26 01:48:22		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-67.tar.gz size: 1.5 MB
+2017-09-26 01:48:22		Send to dropbox files
+2017-09-26 01:48:26		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-68.tar.gz size: 1.7 MB
+2017-09-26 01:48:26		Send to dropbox files
+2017-09-26 01:48:28		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-69.tar.gz size: 3.8 MB
+2017-09-26 01:48:28		Send to dropbox files
+2017-09-26 01:48:30		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-7.tar.gz size: 277 KB
+2017-09-26 01:48:30		Send to dropbox files
+2017-09-26 01:48:32		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-70.tar.gz size: 1.9 MB
+2017-09-26 01:48:32		Send to dropbox files
+2017-09-26 01:48:34		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-71.tar.gz size: 1.7 MB
+2017-09-26 01:48:34		Send to dropbox files
+2017-09-26 01:48:37		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-72.tar.gz size: 1.6 MB
+2017-09-26 01:48:37		Send to dropbox files
+2017-09-26 01:48:39		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-73.tar.gz size: 3.9 MB
+2017-09-26 01:48:39		Send to dropbox files
+2017-09-26 01:48:42		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-74.tar.gz size: 1.7 MB
+2017-09-26 01:48:42		Send to dropbox files
+2017-09-26 01:48:44		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-75.tar.gz size: 3.4 MB
+2017-09-26 01:48:44		Send to dropbox files
+2017-09-26 01:48:47		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-76.tar.gz size: 1.5 MB
+2017-09-26 01:48:47		Send to dropbox files
+2017-09-26 01:48:49		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-77.tar.gz size: 2 MB
+2017-09-26 01:48:49		Send to dropbox files
+2017-09-26 01:48:52		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-78.tar.gz size: 4.4 MB
+2017-09-26 01:48:52		Send to dropbox files
+2017-09-26 01:48:54		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-79.tar.gz size: 2 MB
+2017-09-26 01:48:54		Send to dropbox files
+2017-09-26 01:48:56		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-8.tar.gz size: 515.4 KB
+2017-09-26 01:48:56		Send to dropbox files
+2017-09-26 01:48:57		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-80.tar.gz size: 1.5 MB
+2017-09-26 01:48:58		Send to dropbox files
+2017-09-26 01:49:00		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-81.tar.gz size: 1.6 MB
+2017-09-26 01:49:00		Send to dropbox files
+2017-09-26 01:49:03		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-82.tar.gz size: 2.8 MB
+2017-09-26 01:49:03		Send to dropbox files
+2017-09-26 01:49:05		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-83.tar.gz size: 1.8 MB
+2017-09-26 01:49:05		Send to dropbox files
+2017-09-26 01:49:08		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-84.tar.gz size: 6.4 MB
+2017-09-26 01:49:08		Send to dropbox files
+2017-09-26 01:49:11		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-85.tar.gz size: 2.7 MB
+2017-09-26 01:49:11		Send to dropbox files
+2017-09-26 01:49:14		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-86.tar.gz size: 2.2 MB
+2017-09-26 01:49:14		Send to dropbox files
+2017-09-26 01:49:16		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-87.tar.gz size: 1.7 MB
+2017-09-26 01:49:16		Send to dropbox files
+2017-09-26 01:49:18		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-88.tar.gz size: 1.7 MB
+2017-09-26 01:49:18		Send to dropbox files
+2017-09-26 01:49:20		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-89.tar.gz size: 1.5 MB
+2017-09-26 01:49:20		Send to dropbox files
+2017-09-26 01:49:22		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-9.tar.gz size: 563.7 KB
+2017-09-26 01:49:22		Send to dropbox files
+2017-09-26 01:49:25		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-90.tar.gz size: 2 MB
+2017-09-26 01:49:25		Send to dropbox files
+2017-09-26 01:49:27		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-91.tar.gz size: 4.3 MB
+2017-09-26 01:49:27		Send to dropbox files
+2017-09-26 01:49:29		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-92.tar.gz size: 2 MB
+2017-09-26 01:49:29		Send to dropbox files
+2017-09-26 01:49:31		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-93.tar.gz size: 2 MB
+2017-09-26 01:49:31		Send to dropbox files
+2017-09-26 01:49:35		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-94.tar.gz size: 7.1 MB
+2017-09-26 01:49:35		Send to dropbox files
+2017-09-26 01:49:38		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-95.tar.gz size: 2.2 MB
+2017-09-26 01:49:38		Send to dropbox files
+2017-09-26 01:49:40		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-96.tar.gz size: 1.5 MB
+2017-09-26 01:49:40		Send to dropbox files
+2017-09-26 01:49:42		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-97.tar.gz size: 1.5 MB
+2017-09-26 01:49:42		Send to dropbox files
+2017-09-26 01:49:44		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-98.tar.gz size: 1.5 MB
+2017-09-26 01:49:44		Send to dropbox files
+2017-09-26 01:49:46		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41-99.tar.gz size: 1.5 MB
+2017-09-26 01:49:46		Send to dropbox files
+2017-09-26 01:49:48		File upload: jeanjer_dtdigital_rhcloud_com-full-2017_09_26_02_41.md5 size: 1.1 MB
+2017-09-26 01:49:48		End Copy Files to Dropbox
